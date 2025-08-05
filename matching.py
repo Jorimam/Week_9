@@ -1,6 +1,7 @@
 color = "black"
 
 match color:
+
     case "blue":
         print("blue")
     case "Black":

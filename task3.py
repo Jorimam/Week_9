@@ -1,7 +1,7 @@
 student = {
     "name": "legolas",
-    "has_registered": False,
-    "has_paid": True,
+    "has_registered": True,
+    "has_paid": False,
     "has_internet": True
 }
 
