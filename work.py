@@ -1,10 +1,5 @@
 '''
-students = [
-    {"id": 1, "name": "Alice", "score": 78},
-    {"id": 2, "name": "Bob", "score": 45},
-    {"id": 3, "name": "Charlie", "score": 92},
-    ...
- ]
+ Generating students ID, name and random scores as a dictionary in a list
 '''
 import random
 students = []
@@ -15,5 +10,14 @@ while items <= 1000:
     name = "jo"
     records = {"id": items, "name":(f"student{items + 1}") , "score":random.randint(25, 100)}
     students.append(records)
-print(students)
+#print(students)
 
+#Step 2
+i = 0 
+condition = True
+while condition:
+    if i < 10:
+        i += 1
+        print(i)   
+    else:
+        condition = False
