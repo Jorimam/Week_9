@@ -54,17 +54,20 @@ elif action == "r":
 				user["is_verified"] = True
 				print("Login successful")
 				print(user)
+				print(user_db)
 			else:
 				 print(f"Verfication costs: {verification_amount}")
 				 print(f"You cannot be verified due to Insufficeint funds: {available_balance}")
 				 print("Login successful")
+				 print(user_db)
 		elif verify == "no":
 			print("Login successful")
 			print(user)
+			print(user_db)
 		else:
 			print("Invalid response")
 		
 	
 else:
-	print("Error")
-print(user_db)
+	print("Error!")
+	print("Kindly follow the given instructions")
